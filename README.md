@@ -1,13 +1,63 @@
-## ERS stack
 
-A basic application made with Electron, React, and SQLite tech stack as a part of the post [Standalone application with Electron, React, and SQLite stack.](https://fmacedoo.medium.com/standalone-application-with-electron-react-and-sqlite-stack-9536a8b5a7b9) on Medium.
 
-### Run
+## The Project
 
-> yarn electron-dev
+The Standalone application with Electron, React, and SQLite stack to manage API on their projects.
 
-Runs the app in the development mode. A brand new window will be opened by electron automatically.
+## Targeted user
+ The targeted customers who want to manage their own API 
+ 
+## How to start the app 
+yarn electron-dev
 
-### Improvements
+## Technologies used :computer:
+- Node.js
+- Electron
+- React
+- Sqlite
+  
+## Wireframe
 
-As I have been seeing a good number of forks here, and likes on Medium. I invite you all to suggest improvements creating Issues or even offering some hands opening new PR's for what you all would like to see merged on it.
+
+## sql diagram 
+
+
+
+## Component Hierarchy
+
+```
+APP        
+
+
+```
+
+
+
+## Features (MVP)
+
+- Full CRUD operation for (API, API Stack)
+
+
+## Upcoming Features(Post MVP)
+- Authorization (signup/login)
+- Personal Feed 
+
+## Endpoints for CRUD
+
+
+Development Dairy
+
+09/09/2022
+
+I was making express API which connects to local SQLite, however
+Changed into native API for security reasons. 
+
+Finally, I can directly render the database with my testing data. 
+However, there are a few errors with React. 
+
+Next goal.. 
+- structuring URL and project data 
+- CRUD 
+- JSON login or session cookie 
+- CSS frameworks. 
+
